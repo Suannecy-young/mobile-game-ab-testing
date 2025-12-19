@@ -54,7 +54,7 @@ You can run this project locally or via Google Colab.
 ### Option 2: Google Colab
 Click the badge below to run the notebook directly in your browser:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Suannecy-young/cookie-cats-ab-testing/blob/main/Cookie_Cats_AB_Test.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Suannecy-young/mobile-game-ab-testing/blob/main/Cookie_Cats_AB_Test.ipynb)
 
 ## 📊 Analysis Pipeline
 1.  **Data Loading & Cleaning:** Checked for missing values and handled outliers (e.g., players with abnormally high game rounds).
