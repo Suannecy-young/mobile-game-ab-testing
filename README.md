@@ -40,7 +40,7 @@ You can run this project locally or via Google Colab.
 ### Option 1: Local Installation
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/Suannecy-young/cookie-cats-ab-testing.git](https://github.com/Suannecy-young/cookie-cats-ab-testing.git)
+    git clone [https://github.com/Suannecy-young/cookie_cats_ab_testing.git](https://github.com/Suannecy-young/cookie-cats-ab-testing.git)
     ```
 2.  **Install dependencies:**
     ```bash
