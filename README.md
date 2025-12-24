@@ -4,7 +4,7 @@
 ![Library](https://img.shields.io/badge/Library-Pandas%20%7C%20NumPy%20%7C%20Statsmodels-orange)
 ![Status](https://img.shields.io/badge/Status-Completed-success)
 
-## 📖 Introduction
+## Introduction
 This project analyzes the results of an A/B test performed on the popular mobile puzzle game **Cookie Cats**. The goal of the experiment was to determine the optimal placement for the first "gate" in the game—a mechanism that forces players to wait or make a purchase before progressing.
 
 **The Experiment:**
@@ -14,7 +14,7 @@ This project analyzes the results of an A/B test performed on the popular mobile
 **Objective:**
 To evaluate the impact of this change on player retention, specifically **1-Day Retention** and **7-Day Retention**.
 
-## 📂 Dataset Description
+## Dataset Description
 The dataset consists of game data from **90,189 players**.
 
 | Column Name | Description |
@@ -25,7 +25,7 @@ The dataset consists of game data from **90,189 players**.
 | `retention_1` | Did the player come back and play **1 day** after installing? (True/False) |
 | `retention_7` | Did the player come back and play **7 days** after installing? (True/False) |
 
-## 🛠️ Tech Stack & Prerequisites
+## Tech Stack & Prerequisites
 The analysis is performed using **Python** within a Jupyter Notebook environment.
 
 **Libraries Used:**
@@ -34,7 +34,7 @@ The analysis is performed using **Python** within a Jupyter Notebook environment
 * `matplotlib` / `seaborn` (Data visualization)
 * `statsmodels` (Statistical hypothesis testing)
 
-## 🚀 How to Run
+## How to Run
 You can run this project locally or via Google Colab.
 
 ### Option 1: Local Installation
@@ -56,13 +56,13 @@ Click the badge below to run the notebook directly in your browser:
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Suannecy-young/mobile-game-ab-testing/blob/main/Cookie_Cats_AB_Test.ipynb)
 
-## 📊 Analysis Pipeline
+## Analysis Pipeline
 1.  **Data Loading & Cleaning:** Checked for missing values and handled outliers (e.g., players with abnormally high game rounds).
 2.  **Exploratory Data Analysis (EDA):** Visualized the distribution of game rounds played.
 3.  **Retention Analysis:** Calculated the mean retention rates for both groups.
 4.  **Hypothesis Testing:** Performed a **Z-test** (Two-sample Z-test for proportions) to determine if the difference in retention rates was statistically significant.
 
-## 📊 Results & Conclusion
+## Results & Conclusion
 
 Statistical analysis (Z-test) shows that moving the gate to Level 40 negatively impacts long-term retention.
 
@@ -79,4 +79,3 @@ Statistical analysis (Z-test) shows that moving the gate to Level 40 negatively 
 **Keep the gate at Level 30** to maximize player retention.
 
 ---
-*Author: [Xuanci Yang]*
